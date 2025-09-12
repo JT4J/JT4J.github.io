@@ -43,6 +43,7 @@ img {
  font-family: 'Merriweather', serif;
  font-weight: lighter;
  font-size: 18px;
+ font-style: italic;
  display: inline-block;
  cursor: pointer;
  text-align: right;
@@ -51,4 +52,35 @@ img {
 }
 .github:hover {
   text-decoration: underline;
+}
+
+.wp {
+position: fixed;
+z-index: 11;
+text-decoration: none;
+color: white;
+top: 35px;
+right: 150px;
+display: inline-block;
+font-size: 18px;
+font-family: 'Merriweather', serif;
+font-weight: lighter;
+font-style: italic;
+cursor: pointer;
+text-align: right;
+}
+
+.wp:hover {
+text-decoration: underline;  
+}
+
+.sep {
+position: fixed;
+top: 35px;
+right: 150px;
+z-index: 10;  
+width: 100px;
+height: 15px;  
+color: rgba(204, 204, 204, 0.2);
+font-size: 18px;
 }
