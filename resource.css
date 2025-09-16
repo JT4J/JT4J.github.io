@@ -84,3 +84,97 @@ height: 15px;
 color: rgba(204, 204, 204, 0.2);
 font-size: 18px;
 }
+
+.gtimg {
+position: fixed; 
+top: 200px;
+left: 0px;
+height: 100px;
+width: 100px;
+}
+
+.w3ss {
+position: fixed;  
+top: 400px;
+height: 100px;
+width: 100px;
+left: 0px;
+}
+.codeorg {
+ position: fixed; 
+ top: 600px;
+ height: 100px;
+ width: 100px;
+ left: 0px;
+}
+.gtio {
+top: 235px;
+left: 160px;
+position: fixed;
+text-align: left;
+text-decoration: none;
+color: black;
+height: 100px;
+width: 600px;
+text-align: left;
+text-decoration: none;
+color: black;
+display: flex;
+background-color: #cccccc25;
+cursor: pointer;
+align-items: center;
+justify-content: center;
+transition: background-color 0.3s ease, color 0.3s ease;
+font-size: larger;
+}
+
+.gtio:hover {
+  background-color: rgb(188, 49, 65);
+  color: white;
+}
+.w3s {
+  top: 435px;
+  position: fixed;
+  left: 160px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  height: 100px;
+  width: 600px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  background-color: #cccccc30;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: larger;
+}
+.w3s:hover {
+  background-color:  rgb(188, 49, 65);
+  color: white;
+}
+
+.code {
+  position: fixed;
+  top: 635px; 
+  left: 160px;  
+  height: 100px;
+  width: 600px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  background-color: #cccccc30;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: larger;
+}
+.code:hover { 
+background-color:  rgb(188, 49, 65);
+color: white;
+}
