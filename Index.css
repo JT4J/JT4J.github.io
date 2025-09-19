@@ -27,10 +27,37 @@ div {background-color: rgb(188, 49, 65);
   font-weight: 650;
   top: 30px;
 }
+
+.canvas {
+top: 145px;
+position: fixed;
+z-index: 10;
+left: 150px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-family:  'Monsterrat', bold, sans-serif;
+font-weight: 550;
+position: relative;
+display: inline-block;
+}
+.canvas::after {
+  content: '';
+  position: absolute;
+  left: 35px;
+  bottom: -10px; 
+  width: 0;
+  height: 3px; 
+  background-color: lightgray;
+  transform: translateX(-50%);
+  transition: width 0.4s ease;
+}
+.canvas:hover::after{
+  width: 80%;
+}
+
 img {
   top: 0;
   position: fixed;
-  margin-top: 1;
   padding-top: 33px;
   padding-left: 40px;
   height: 100px; 
