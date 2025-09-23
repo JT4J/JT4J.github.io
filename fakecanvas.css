@@ -1,0 +1,15 @@
+.flex-container {
+display: flex;
+gap: 10px;
+flex-direction: column;
+background-color: 
+rgba(50, 69, 81);
+color: white;
+align-items: left;
+width: 75px;
+height: 100%;
+top: 0;
+left: 0;
+margin: 0;
+position: fixed;
+}
